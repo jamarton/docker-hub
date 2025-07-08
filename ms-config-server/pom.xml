@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>ms-eureka-server</artifactId>
+	<artifactId>ms-config-server</artifactId>
 	<version>1.0.0</version>
-	<name>ms-eureka-server</name>
-	<description>Ejemplo de servidor de registro/descubrimiento</description>
+	<name>ms-config-server</name>
+	<description>Ejemplo de servidor de configuración con Spring Cloud Config</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,12 +32,16 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter</artifactId>
 		</dependency>
 
 		<dependency>
