@@ -42,7 +42,7 @@ USE sakila;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO actor VALUES (1,'PENELOPE','GUINESS','2006-02-15 04:34:33'),
+INSERT INTO actor VALUES (1,'PENELOPE','GUINESS','2022-02-15 04:34:33'),
 (2,'NICK','WAHLBERG','2006-02-15 04:34:33'),
 (3,'ED','CHASE','2006-02-15 04:34:33'),
 (4,'JENNIFER','DAVIS','2006-02-15 04:34:33'),
@@ -859,7 +859,7 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO category VALUES (1,'Action','2006-02-15 04:46:27'),
+INSERT INTO category VALUES (1,'Action','2022-02-15 04:46:27'),
 (2,'Animation','2006-02-15 04:46:27'),
 (3,'Children','2006-02-15 04:46:27'),
 (4,'Classics','2006-02-15 04:46:27'),
@@ -2218,7 +2218,7 @@ CREATE TRIGGER customer_create_date BEFORE INSERT ON customer
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO film VALUES (1,'ACADEMY DINOSAUR','A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies',2006,1,NULL,6,'0.99',86,'20.99','PG','Deleted Scenes,Behind the Scenes','2006-02-15 05:03:42'),
+INSERT INTO film VALUES (1,'ACADEMY DINOSAUR','A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies',2006,1,NULL,6,'0.99',86,'20.99','PG','Deleted Scenes,Behind the Scenes','2022-02-15 05:03:42'),
 (2,'ACE GOLDFINGER','A Astounding Epistle of a Database Administrator And a Explorer who must Find a Car in Ancient China',2006,1,NULL,3,'4.99',48,'12.99','G','Trailers,Deleted Scenes','2006-02-15 05:03:42'),
 (3,'ADAPTATION HOLES','A Astounding Reflection of a Lumberjack And a Car who must Sink a Lumberjack in A Baloon Factory',2006,1,NULL,7,'2.99',50,'18.99','NC-17','Trailers,Deleted Scenes','2006-02-15 05:03:42'),
 (4,'AFFAIR PREJUDICE','A Fanciful Documentary of a Frisbee And a Lumberjack who must Chase a Monkey in A Shark Tank',2006,1,NULL,5,'2.99',117,'26.99','G','Commentaries,Behind the Scenes','2006-02-15 05:03:42'),
@@ -3225,7 +3225,7 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO film_actor VALUES (1,1,'2006-02-15 05:05:03'),
+INSERT INTO film_actor VALUES (1,1,'2022-02-15 05:05:03'),
 (1,23,'2006-02-15 05:05:03'),
 (1,25,'2006-02-15 05:05:03'),
 (1,106,'2006-02-15 05:05:03'),
@@ -8694,7 +8694,7 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO film_category VALUES (1,6,'2006-02-15 05:07:09'),
+INSERT INTO film_category VALUES (1,6,'2022-02-15 05:07:09'),
 (2,11,'2006-02-15 05:07:09'),
 (3,6,'2006-02-15 05:07:09'),
 (4,11,'2006-02-15 05:07:09'),
@@ -9701,7 +9701,7 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO inventory VALUES (1,1,1,'2006-02-15 05:09:17'),
+INSERT INTO inventory VALUES (1,1,1,'2022-02-15 05:09:17'),
 (2,1,1,'2006-02-15 05:09:17'),
 (3,1,1,'2006-02-15 05:09:17'),
 (4,1,1,'2006-02-15 05:09:17'),
@@ -14289,7 +14289,7 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO language VALUES (1,'English','2006-02-15 05:02:19'),
+INSERT INTO language VALUES (1,'English','2022-02-15 05:02:19'),
 (2,'Italian','2006-02-15 05:02:19'),
 (3,'Japanese','2006-02-15 05:02:19'),
 (4,'Mandarin','2006-02-15 05:02:19'),
